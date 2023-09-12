@@ -32,13 +32,13 @@ responses = [
     "Yuuuuuuuuuuuuuuuurrrrrrrr",
     "They let people like you vote?",
     "Are you dense?",
-    "Fuck you",
-    "Sumn like that",
+    "F*ck you",
+    "Something like that",
     "Does your mom know you asked that?",
     "Basically",
     "Try again",
     "Try it",
-    "Fuck around and find out",
+    "F*ck around and find out",
     "Ed says yes"
 ]
 
@@ -49,4 +49,4 @@ async def shake(ctx):
     await ctx.send(f"TractionCTRL's 8-ball says: {random.choice(responses)}")
 
 # Start the bot
-bot.run('YOUR_TOKEN_HERE')
+bot.run('TOKEN GOES HERE')
